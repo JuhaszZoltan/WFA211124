@@ -1,0 +1,14 @@
+-- CREATE DATABASE pelda;
+-- USE pelda;
+
+CREATE TABLE tabla (
+id INT PRIMARY KEY IDENTITY,
+nev VARCHAR(20),
+szul DATE,
+oltas DATETIME,
+munkaido TIME);
+
+INSERT INTO tabla VALUES
+('Para Zita',    '1992-05-12', '2021-11-20 16:00', '08:00'),
+('Végh Béla',    '1990-12-08', '2021-11-20 16:30', '04:00'),
+('Lapos Elemér', '2001-07-11', '2021-11-21 16:00', '08:00');
